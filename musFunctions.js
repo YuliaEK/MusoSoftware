@@ -233,3 +233,14 @@ function calCost(){
         
         }
     }
+
+    function ReadList(){
+
+        const info = fs.readFileSync('mylist.txt', 'utf-8');
+        const contentfile = info.split('\n');
+        console.log (contentfile);
+        return contentfile;
+       //console.log (info);
+
+   
+    }
