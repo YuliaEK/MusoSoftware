@@ -198,3 +198,38 @@ function addMusiciantoTroupe()
     }
     
 }
+
+// Calculate cost
+
+function calCost(){
+
+    // Create a new array and loop through it to print a troupe name
+
+
+
+    let troupeName = troupeDetails.map ((a) => a.troupeName);
+    for (let i = 0; i < troupeDetails.length; i++){
+        console.log(`${troupeName[i]}`)
+
+
+    var troupe = prompt ('Enter your troupe name:');
+    var hireH = Number (prompt ('Enter number of hours you would like to hire a troupe:'));
+    
+    for (let i = 0; i < troupeDetails.length; i++){
+        if (troupe = troupeDetails[i].troupeName && hireH <= troupeDetails[i].minDuration)
+        {
+            let musHours = troupeDetails[i].musinTroupe.map((a) => a.hourlyRate);
+            //console.log (musHours);
+            const sum = musHours.reduce((acc, value) => {return Number(acc)+Number(value)});
+            console.log('The total cost is:'+sum*hireH);
+            
+        }
+        else 
+        {
+            console.log ('Minimum duration for this troup is:'+ troupeDetails[i].minDuration + ' Please enter hours between 0.5 and 3:');
+        }
+     }
+   
+        
+        }
+    }
