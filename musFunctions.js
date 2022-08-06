@@ -163,3 +163,38 @@ function createTroupe () {
 function getTroupeList(){
     return troupeDetails;
 }
+
+// add Musician to a troupe
+function addMusiciantoTroupe()
+{
+    let tName=prompt('Enter Troupe Name : ');
+    let mName=prompt('Enter Musician Name : ');
+
+    let musician="";
+
+    for(let x=0;x<musicianDetails.length;x++)
+    {
+        if(musicianDetails[x].musName==mName)
+        {
+            musician=musicianDetails[x];
+        }
+    }
+    for(let i=0;i<troupeDetails.length;i++)
+    {
+        if(troupeDetails[i].troupeName==tName)
+        {
+            troupeDetails[i].addMusician(musician);
+        }
+
+        if(troupeDetails[i].musinTroupe.length >= 5)
+        {
+            console.log ('Troupe musicians limit has been reached');
+    
+            break;
+        }
+    
+  
+
+    }
+    
+}
