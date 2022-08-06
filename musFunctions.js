@@ -8,12 +8,10 @@ const {Bassist}=require('./Bassist.js');
 const {Flautist}=require('./Flautist.js');
 const {Percussionist}=require('./Percussionist.js');
 const {Troupe}=require('./Troupe.js');
-const { get } = require('https');
+
 
 var musicianDetails = new Array();
 var troupeDetails = new Array();
-
-
 
 
 // Create a new musician
@@ -112,4 +110,56 @@ if (instrument=='Guitarist')
 }
 
 
+function getMusicianList(){
+    return musicianDetails;
+}
 
+
+// Create a new troupe
+function createTroupe () {
+
+    let trName="";
+    let trGenre="";
+    let minimumDur=0;
+    
+    while (true)
+{
+   
+       if(trName.length>=3 && trName.length<=30)
+       {
+           if (trGenre == 'rock' || trGenre == 'pop' || trGenre == 'jazz')
+           {
+               if(minimumDur>=0.5 && minimumDur<=3)
+               {
+                   break;
+               }
+               else
+               {
+                minimumDur=prompt ('Enter minimum duration (between 0.5 and 3):');
+                  }
+           }
+           else
+           {
+            trGenre=prompt ('Enter genre (rock, pop, jazz):')
+            
+           }
+       }
+       else
+       {
+           trName=prompt('Enter a troupe name (3 to 30 characters):');
+       }
+      
+   }
+
+    const tr1 = new Troupe();
+    tr1.troupeName=trName;
+    tr1.genre=trGenre;
+    tr1.minDuration=minimumDur;
+
+    troupeDetails.push(tr1);
+}
+
+
+function getTroupeList(){
+    return troupeDetails;
+}
