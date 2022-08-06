@@ -244,3 +244,25 @@ function calCost(){
 
    
     }
+
+    function WriteList(){
+        
+        var fileName = prompt('Name your file:');
+
+        for (let j=0; j<troupeDetails.length; j++){
+
+            var troupeName = 'Troupe name is: '+troupeDetails[j].troupeName+'\n';
+            var genre = 'The genre is: '+troupeDetails[j].genre+'\n';
+            var duration = 'Troup`s duration is: '+troupeDetails[j].minDuration+'\n';
+            let musNames = troupeDetails[j].musinTroupe.map((a) => a.musName);
+            var numMus = 'This troupe '+ troupeDetails[j].troupeName + ' has ' + musNames;
+            
+
+            var rep = troupeName + genre +duration +numMus;
+
+            const report = fs.appendFileSync(fileName+'.txt', rep);
+        }
+
+    }
+
+    module.exports={createMusician, getMusicianList, createTroupe, getTroupeList, addMusiciantoTroupe, calCost, ReadList, WriteList};
