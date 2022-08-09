@@ -126,6 +126,7 @@ function createTroupe () {
 {
    
        if(trName.length>=3 && trName.length<=30)
+
        {
            if (trGenre == 'rock' || trGenre == 'pop' || trGenre == 'jazz')
            {
@@ -138,6 +139,8 @@ function createTroupe () {
                 minimumDur=prompt ('Enter minimum duration (between 0.5 and 3):');
                   }
            }
+
+
            else
            {
             trGenre=prompt ('Enter genre (rock, pop, jazz):')
@@ -148,6 +151,8 @@ function createTroupe () {
        {
            trName=prompt('Enter a troupe name (3 to 30 characters):');
        }
+
+      
       
    }
 
@@ -169,7 +174,7 @@ function addMusiciantoTroupe()
 {
     let tName=prompt('Enter Troupe Name : ');
     let mName=prompt('Enter Musician Name : ');
-
+    var arrTroupeList =getTroupeList();
     let musician="";
 
     for(let x=0;x<musicianDetails.length;x++)
@@ -179,24 +184,23 @@ function addMusiciantoTroupe()
             musician=musicianDetails[x];
         }
     }
-    for(let i=0;i<troupeDetails.length;i++)
+    for(var i=0;i<arrTroupeList.length;i++)
     {
-        if(troupeDetails[i].troupeName==tName)
+        if(arrTroupeList[i].troupeName==tName)
         {
-            troupeDetails[i].addMusician(musician);
-        }
+            if(arrTroupeList[i].musinTroupe.length>=5)
+            {
+                console.log('Troupe has reached the limit of 5 members');
+                break;
+            }
 
-        if(troupeDetails[i].musinTroupe.length >= 5)
-        {
-            console.log ('Troupe musicians limit has been reached');
-    
-            break;
+            else{
+            arrTroupeList[i].addMusician(musician);
         }
-    
-  
 
     }
     
+}
 }
 
 // Calculate cost
