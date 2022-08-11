@@ -1,17 +1,17 @@
-#**Activity 2**
+**#Activity 2**
  
 
-##**MusoPlan Software**
+**##MusoPlan Software**
  
 **Prepared by** 
 Yulia Erenkova
  
  
-##**Introduction**
+**##Introduction**
 MusoPlan is a software solution to help Globex Corporation’s management evaluate the success of the musicians by adding them to a troupe and calculating their cost.  The software will be under manual and automated testing to ensure that MusoPlan meets the quality specifications defined by the client and to identify all the unexpected behavior of the functions and methods and then fix them.
 
  
-##**Scope**
+**##Scope**
 
 Manual testing will be used for four Functions and automated testing for Classes and Methods inside them.
 Under manual testing, developer will check the codes that drive each of these functions to ensure they work as the client intends and evaluate software from the user's perspective.
@@ -20,21 +20,21 @@ To conduct automation testing there will be used Jest. Jest is an open-source te
 
 There will be implemented three test case design techniques: Base Cases, Edge Cases, and  Boundary Values.
 
-###**Test Completeness:**
-•	75% coverage of functions tested by automated testing
+**###Test Completeness:**
+•   75% coverage of functions tested by automated testing
 •	All Manual & Automated Test cases executed
 •	A software test plan must include test cases with purposefully invalid, or incorrect inputs
 •	All open bugs are fixed or will be fixed in next release 
 
-###**Some objectives of the testing project are:**
+**###Some objectives of the testing project are:**
 •	Ensure that MusoPlan conforms to functional requirements
 •	Ensure MusoPlan meets the quality specifications defined by the client
 •	Bugs/issues are identified and fixed before go live
 
-###**Testing Tools**
+**###Testing Tools**
 •	Automation Tools (Jest)
 
-##**The proposed test plan steps are as follows:**
+**##The proposed test plan steps are as follows:**
 
 **Identifier:** ‘CREATE MUSICIAN’
  
