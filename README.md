@@ -1,4 +1,4 @@
-#**Instruction on how to use MusoPlan software**
+# Instruction on how to use MusoPlan software
 
 All the operations should be done in the terminal.
 
