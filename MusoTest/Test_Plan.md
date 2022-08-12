@@ -7,7 +7,7 @@
 Yulia Erenkova
  
  
-## Introduction**
+## Introduction
 MusoPlan is a software solution to help Globex Corporation’s management evaluate the success of the musicians by adding them to a troupe and calculating their cost.  The software will be under manual and automated testing to ensure that MusoPlan meets the quality specifications defined by the client and to identify all the unexpected behavior of the functions and methods and then fix them.
 
  
