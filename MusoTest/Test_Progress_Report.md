@@ -220,7 +220,7 @@ troupeDetails:
 3.Minimum duration of a troupe
 4.Musician Name, Years of playing, Hourly Rate
 
-**##Defects identified during testing and strategies for amending defects**
+## Defects identified during testing and strategies for amending defects
 
 Defect Identifier: ‘READ FUNCTION’
 Defect description. Defect was found in a Read module, all the values convert into objects in .txt file not strings. The defect causes minimum deviation from product requirements
