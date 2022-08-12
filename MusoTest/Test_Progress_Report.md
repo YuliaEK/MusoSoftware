@@ -1,6 +1,6 @@
-**##Test progress report**
+## Test progress report
 
-**##Manual testing results**
+## Manual testing results
 
 **Date: 09/08/2022**
 
