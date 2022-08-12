@@ -1,12 +1,12 @@
-#**Functionality 1. (Create a Musician)**
+## Functionality 1. (Create a Musician)
 
 Select option 1 from the main menu -> Enter instrumentalist ->  Enter a musician name -> Enter hourly rate -> Enter years of playing 
 
 Musician data requirements are
-•	Name between 3 and 30 characters
-•	Must play one of the four instruments below
-•	Years playing must be non-negative
-•	Hourly rate must be over 50
+1. Name between 3 and 30 characters
+2. Must play one of the four instruments below
+3. Years playing must be non-negative
+4. Hourly rate must be over 50
 
 |     Input                                                                                                     |     Expected   output                                        |     Actual   output                                          |   |   |
 |---------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------|--------------------------------------------------------------|---|---|
@@ -16,15 +16,15 @@ Musician data requirements are
 |     1     Instrumentalist: Guitarist     Name:Henry     Hourly Rate: 40                                       |     Enter hourly rate (greater than 50)                      |     Enter hourly rate (greater than 50)                      |   |   |
 |     1     Instrumentalist: Guitarist     Name:Henry     Hourly Rate: 60     Years of playing:0                |     Enter years of playing (greater   than 0)                |     Enter years of playing (greater   than 0)                |   |   |
 
-#**Functionality 2. (Create a Troupe)**
+## Functionality 2. (Create a Troupe)
 
 Select option 2 from the main menu -> Enter name of a troupe ->  Enter  a genre -> Enter minimum duration 
 
 **Troupe data requirements are**
-•	Name between 3 and 30 characters
-•	No more than 5 musicians
-•	Valid genre from (rock, jazz, pop)
-•	Minimum duration in hours between 0.5 and 3
+1. Name between 3 and 30 characters
+2. No more than 5 musicians
+3. Valid genre from (rock, jazz, pop)
+4. Minimum duration in hours between 0.5 and 3
 
 |     Input                                                                                                	|     Expected Output                                                   	|     Actual output                                                     	|   	|   	|
 |----------------------------------------------------------------------------------------------------------	|-----------------------------------------------------------------------	|-----------------------------------------------------------------------	|---	|---	|
@@ -34,11 +34,12 @@ Select option 2 from the main menu -> Enter name of a troupe ->  Enter  a genre 
 |     2     Enter a   troupe name: Best Band     Enter a   genre: jazz     Enter   minimum duration: 5     	|     Enter   minimum duration (between 0.5 and 3)                      	|     Enter   minimum duration (between 0.5 and 3)                      	|   	|   	|
 
 
-#**Functionality 3. (Add musician to a Troupe)**
+## Functionality 3. (Add musician to a Troupe)
 
 Select option 3 from the main menu -> Enter name of a troupe ->  Enter  a name of a musician you want to add -> 
+
 **Troupe data requirements are**
-•	No more than 5 musicians
+1. No more than 5 musicians
 
 |     Input                                                                     	|     Expected Output                                          	|     Actual output                                            	|   	|   	|
 |-------------------------------------------------------------------------------	|--------------------------------------------------------------	|--------------------------------------------------------------	|---	|---	|
@@ -47,7 +48,7 @@ Select option 3 from the main menu -> Enter name of a troupe ->  Enter  a name o
 |     2     Enter a   troupe name: Best Band     Enter a   name: Tim            	|     Enter a name                                             	|     Enter a   name                                           	|   	|   	|
 
 
-#**Functionality 4. (Provide a summary discription about troupe)**
+## Functionality 4. (Provide a summary discription about troupe)
 
 Select option 4 from the main menu -> Press Enter
 
@@ -58,7 +59,7 @@ Select option 4 from the main menu -> Press Enter
 |                            	|                                                                                                                                                        	|                                                                                                                                                        	|   	|   	|
 
 
-#**Functionality 5. (Provide a detailed discription about troupe)**
+## Functionality 5. (Provide a detailed discription about troupe)
 
 Select option 5 from the main menu -> Press Enter
 
@@ -69,7 +70,7 @@ Select option 5 from the main menu -> Press Enter
 |                            	|                                                                                                                                                                                                                                                                       	|                                                                                                                                                                                                                                                                       	|   	|   	|
 
 
-#**Functionality 6. (Calculate the cost)**
+## Functionality 6. (Calculate the cost)
 
 Select option 6 from the main menu ->  Press Enter -> Choose the troupe's name
 
@@ -81,7 +82,7 @@ Select option 6 from the main menu ->  Press Enter -> Choose the troupe's name
 |     6     Enter your troupe name:Pop     Enter number of hours you would like to hire a troupe:4          	|     [Minimum duration   for this troup is:3 Please enter hours between 0.5 and 3:]    	|     [Minimum duration   for this troup is:3 Please enter hours between 0.5 and 3:]    	|   	|   	|
 
 
-#**Functionality 7. (Read a list) – under development**
+## Functionality 7. (Read a list) – under development
 
 Select option 7 from the main menu ->  Press Enter 
 
@@ -92,28 +93,8 @@ Select option 7 from the main menu ->  Press Enter
 |                                	|                                 	|                                          	|   	|   	|
 |                                	|                                 	|                                          	|   	|   	|
 
-#**Functionality 8. (Write a list) **
 
-Select option 8 from the main menu ->  Name your file
-
-|     Input                      	|     Expected Output             	|     Actual output                        	|   	|   	|
-|--------------------------------	|---------------------------------	|------------------------------------------	|---	|---	|
-|     7           Press Enter    	|     [Creating   a read file]    	|     [Add  objects instead of strings]    	|   	|   	|
-|                                	|                                 	|                                          	|   	|   	|
-|                                	|                                 	|                                          	|   	|   	|
-
-
-#**Functionality 9. (Exit) **
-
-Select option 9 from the main menu ->  Press Enter
-|     Input                      	|     Expected Output             	|     Actual output                        	|   	|   	|
-|--------------------------------	|---------------------------------	|------------------------------------------	|---	|---	|
-|     7           Press Enter    	|     [Creating   a read file]    	|     [Add  objects instead of strings]    	|   	|   	|
-|                                	|                                 	|                                          	|   	|   	|
-|                      
-
-
-#**Functionality 8. (Write a list) **
+## Functionality 8. (Write a list) 
 
 Select option 8 from the main menu ->  Name your file
 
@@ -124,7 +105,7 @@ Select option 8 from the main menu ->  Name your file
 |                                                             	|                                                     	|                                                     	|   	|   	|
 
 
-#**Functionality 9. (Exit) **
+## Functionality 9. (Exit) 
 
 Select option 9 from the main menu ->  Press Enter
 
