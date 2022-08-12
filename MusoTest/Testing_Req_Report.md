@@ -5,7 +5,7 @@ Yulia Erenkova
 ## Introduction
 MusoPlan is a software solution to help Globex Corporation’s management evaluate the success of the musicians by adding them to a troupe and calculating their cost.  This test requirement document will be used by a developer/developers team to plan, execute and record the outcome of the testing.
 
-## Test Requirements**
+## Test Requirements
 This test requirement document confirms that there will be a manual and automated testing techniques. Manual testing will be used for four Functions and automated testing for Classes and Methods inside them.
 Under manual testing, testers would check the codes that drive each of these functions to ensure they work as the client intends and the client evaluate software from the user's perspective.
 
