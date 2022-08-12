@@ -1,4 +1,4 @@
-#Summary details about the proposed software
+# Summary details about the proposed software
 
 **MusoPlan** is a software that will be used in the company by music management to evaluate the success of the musicians by identifying costs when deploying them as a troupe. 
 
@@ -13,12 +13,12 @@ There are 9 functionalities that have to be deployed:
 8. Write a list of the detailed descriptions for all troupes to a given filename
 9. Exit
 
- ##**Program inputs and outputs**
+ ## Program inputs and outputs
 
 All the data inputs and outputs operating from the command line
 
 
- ##**Classes their properties(data) and behaviors (methods).**
+ ## Classes their properties(data) and behaviors (methods)
 
 There are 2 classes and 4 subclasses:
 Musician (parent class)
