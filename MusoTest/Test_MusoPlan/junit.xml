@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="35" failures="0" errors="0" time="4.831">
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:16" time="2.77" tests="1">
+    <testcase classname=" Testing Guitarist displayDetails" name=" Testing Guitarist displayDetails" time="0.004">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:16" time="2.956" tests="15">
+    <testcase classname=" Test Troupe Name for more than 3 character value" name=" Test Troupe Name for more than 3 character value" time="0.04">
+    </testcase>
+    <testcase classname=" Test Troupe Name with less than 3 characters" name=" Test Troupe Name with less than 3 characters" time="0.038">
+    </testcase>
+    <testcase classname=" Test Troupe Name with more than 30 characters" name=" Test Troupe Name with more than 30 characters" time="0.004">
+    </testcase>
+    <testcase classname=" Test Troupe Genre that exist" name=" Test Troupe Genre that exist" time="0.001">
+    </testcase>
+    <testcase classname=" Test Troupe Genre that doesn`t exist" name=" Test Troupe Genre that doesn`t exist" time="0.002">
+    </testcase>
+    <testcase classname=" Test Troupe minimum duration more than 0.5 and less than 3" name=" Test Troupe minimum duration more than 0.5 and less than 3" time="0.001">
+    </testcase>
+    <testcase classname=" Test Troupe minimum duration equail to 0.5" name=" Test Troupe minimum duration equail to 0.5" time="0.001">
+    </testcase>
+    <testcase classname=" Test Troupe minimum duration equal to 3" name=" Test Troupe minimum duration equal to 3" time="0.001">
+    </testcase>
+    <testcase classname=" Troupe minimum duration less than 0.5" name=" Troupe minimum duration less than 0.5" time="0.002">
+    </testcase>
+    <testcase classname=" Troupe minimum duration more than 3" name=" Troupe minimum duration more than 3" time="0.001">
+    </testcase>
+    <testcase classname=" Testing Troupe addMusician" name=" Testing Troupe addMusician" time="0.001">
+    </testcase>
+    <testcase classname=" Testing Troupe addMusician" name=" Testing Troupe addMusician" time="0.001">
+    </testcase>
+    <testcase classname=" Testing Troupe add 2 to addMusician" name=" Testing Troupe add 2 to addMusician" time="0.001">
+    </testcase>
+    <testcase classname=" Testing Troupe add 2 to addMusician" name=" Testing Troupe add 2 to addMusician" time="0">
+    </testcase>
+    <testcase classname=" Testing Troupe troupeDetails" name=" Testing Troupe troupeDetails" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:17" time="2.458" tests="16">
+    <testcase classname=" Test Musician Name for more than 3 character value" name=" Test Musician Name for more than 3 character value" time="0.007">
+    </testcase>
+    <testcase classname=" Test Musician Name with less than 3 characters" name=" Test Musician Name with less than 3 characters" time="0.027">
+    </testcase>
+    <testcase classname=" Test Musician Name with more than 30 characters" name=" Test Musician Name with more than 30 characters" time="0.025">
+    </testcase>
+    <testcase classname=" Test years of playing for more than 0 value" name=" Test years of playing for more than 0 value" time="0.003">
+    </testcase>
+    <testcase classname=" Test years of playing for less than 0 value" name=" Test years of playing for less than 0 value" time="0.014">
+    </testcase>
+    <testcase classname=" Test years of playing equal to 0 value" name=" Test years of playing equal to 0 value" time="0.003">
+    </testcase>
+    <testcase classname=" Test Hourly Rate with more than 50" name=" Test Hourly Rate with more than 50" time="0.001">
+    </testcase>
+    <testcase classname=" Test Hourly Rate with less than 50" name=" Test Hourly Rate with less than 50" time="0.003">
+    </testcase>
+    <testcase classname=" Test Hourly Rate equal to 50" name=" Test Hourly Rate equal to 50" time="0.001">
+    </testcase>
+    <testcase classname=" Test Instrumentalist with Guitarist" name=" Test Instrumentalist with Guitarist" time="0.021">
+    </testcase>
+    <testcase classname=" Test Instrumentalist with Bassist" name=" Test Instrumentalist with Bassist" time="0.002">
+    </testcase>
+    <testcase classname=" Test Instrumentalist with Flautist" name=" Test Instrumentalist with Flautist" time="0.001">
+    </testcase>
+    <testcase classname=" Test Instrumentalist with Percussionist" name=" Test Instrumentalist with Percussionist" time="0.001">
+    </testcase>
+    <testcase classname=" Test Instrumentalist with Pianist" name=" Test Instrumentalist with Pianist" time="0.002">
+    </testcase>
+    <testcase classname=" Testing musicianDetails with existing instrumentalist" name=" Testing musicianDetails with existing instrumentalist" time="0.001">
+    </testcase>
+    <testcase classname=" Testing musicianDetails with no existing instrumentalist" name=" Testing musicianDetails with no existing instrumentalist" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:19" time="0.693" tests="1">
+    <testcase classname=" Testing Percussionist displayDetails" name=" Testing Percussionist displayDetails" time="0.007">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:19" time="0.648" tests="1">
+    <testcase classname=" Testing Flautist displayDetails" name=" Testing Flautist displayDetails" time="0.005">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2022-09-08T22:45:19" time="0.707" tests="1">
+    <testcase classname=" Testing Bassisst displayDetails" name=" Testing Bassisst displayDetails" time="0.004">
+    </testcase>
+  </testsuite>
+</testsuites>
