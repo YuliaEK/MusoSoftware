@@ -3,10 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  
   "scripts": {
+    
     "test": "jest",
     "test-coverage": "jest --coverage"
   },
+
+  "jest": {
+    "verbose": true,
+    "reporters": [ "default", "jest-junit"]
+  },
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YuliaEK/MusoSoftware.git"
